@@ -9,3 +9,6 @@ git branch
 git merge
 git checkout
 git switch branch
+git log
+git log commitid:filename
+git checkout commitid:filename
