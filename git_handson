@@ -21,3 +21,7 @@ remote -v it shows the url link to push and fetch
 ssh -T git@github.com befor pushing check ssh is working or not
 git push -u origin branch name(main or master or any other branch name)
 git pull origin branch name
+nohup — runs a command that ignores hang‑up signals so it continues after you log out/close the terminal.
+Example:
+
+nohup git push -u origin main &
