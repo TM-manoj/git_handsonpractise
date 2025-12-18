@@ -13,3 +13,8 @@ git log
 git log commitid:filename
 git checkout commitid:filename restore the file with older version of  code
 git show commitid:filename to see the particular commit
+git remote origin repo url to connect local to remote repository though https
+git remote set-url origin repo url of ssh   to connect local to remote repository
+git push -u origin master  to push file from local to remote repo 
+ssh-keygen -t ed25519 -C "manojawsmail@gmail.com"   to generate ssh in local 
+remote -v it shows the url link to push and fetch
