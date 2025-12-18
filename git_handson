@@ -5,3 +5,7 @@ git push
 git clone
 git commit
 git add
+git branch 
+git merge
+git checkout
+git switch branch
