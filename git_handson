@@ -18,3 +18,4 @@ git remote set-url origin repo url of ssh   to connect local to remote repositor
 git push -u origin master  to push file from local to remote repo 
 ssh-keygen -t ed25519 -C "manojawsmail@gmail.com"   to generate ssh in local 
 remote -v it shows the url link to push and fetch
+ssh -T git@github.com befor pushing check ssh is working or not
