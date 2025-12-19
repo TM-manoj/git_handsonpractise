@@ -1,10 +1,10 @@
-version: 0.0
-os: linux
-files:
-  - source: /
-    destination: /home/ec2-user/app-deploy
-hooks:
-  AfterInstall:
-    - location: scripts/postdeploy.sh
-      timeout: 300
-      runas: ec2-user
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Building static files"
+artifacts:
+  files:
+    - '**/*'
+
