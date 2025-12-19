@@ -3,8 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Building static files"
+      - echo "Build started"
+      - ls -R  # optional: show what files exist for debugging
 artifacts:
   files:
     - '**/*'
-
+  base-directory: '.'    # <-- ensures CodeBuild packages everything at root
