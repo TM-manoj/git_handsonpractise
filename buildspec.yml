@@ -3,9 +3,10 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Build started"
-      - ls -R  # optional: show what files exist for debugging
+      - echo "Preparing files for deployment"
+      - ls -la
 artifacts:
+  base-directory: "."       # 👈 include this
   files:
     - '**/*'
-  base-directory: '.'    # <-- ensures CodeBuild packages everything at root
+
