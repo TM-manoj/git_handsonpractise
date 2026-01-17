@@ -31,3 +31,5 @@ ls -a to see hidden files with permisssions
 git add .
 git commit -m "message" branch name
 git push -u origin branch name
+git clone <remote url>
+git push -u -f origin branch name
