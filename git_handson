@@ -25,3 +25,9 @@ nohup — runs a command that ignores hang‑up signals so it continues after yo
 Example:
 
 nohup git push -u origin main &
+
+
+ls -a to see hidden files with permisssions
+git add .
+git commit -m "message" branch name
+git push -u origin branch name
