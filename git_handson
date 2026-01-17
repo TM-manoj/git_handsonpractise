@@ -28,8 +28,11 @@ nohup git push -u origin main &
 
 
 ls -a to see hidden files with permisssions
-git add .
+git add .  add  all files to stage
+git add <file name> for single file to add stage
 git commit -m "message" branch name
 git push -u origin branch name
 git clone <remote url>
 git push -u -f origin branch name
+git log to see commit history
+git diff to see  unstaged changes
