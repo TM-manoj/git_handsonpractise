@@ -1,0 +1,31 @@
+pwd  
+ls
+cp 
+mv
+mkdir
+cd ~
+cd /
+cd
+vi
+ps 
+top 
+who
+whoam
+config
+ls -a
+find
+grep
+touch
+ll
+chown
+chmod
+free
+df -h
+du 
+useadd
+usedel
+groupadd
+head
+tail
+ping
+
