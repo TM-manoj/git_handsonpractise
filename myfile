@@ -29,3 +29,4 @@ head
 tail
 ping
 username
+systemctl status
