@@ -1,0 +1,38 @@
+most imp commands in 
+git init
+git pull
+git push
+git clone
+git commit
+git add
+git branch 
+git merge
+git checkout
+git switch branch
+git log
+git log commitid:filename
+git checkout commitid:filename restore the file with older version of  code
+git show commitid:filename to see the particular commit
+git remote origin repo url to connect local to remote repository though https
+git remote set-url origin repo url of ssh   to connect local to remote repository
+git push -u origin master  to push file from local to remote repo 
+ssh-keygen -t ed25519 -C "manojawsmail@gmail.com"   to generate ssh in local 
+remote -v it shows the url link to push and fetch
+ssh -T git@github.com befor pushing check ssh is working or not
+git push -u origin branch name(main or master or any other branch name)
+git pull origin branch name
+nohup — runs a command that ignores hang‑up signals so it continues after you log out/close the terminal.
+Example:
+
+nohup git push -u origin main &
+
+
+ls -a to see hidden files with permisssions
+git add .  add  all files to stage
+git add <file name> for single file to add stage
+git commit -m "message" branch name
+git push -u origin branch name
+git clone <remote url>
+git push -u -f origin branch name
+git log to see commit history
+git diff to see  unstaged changes
