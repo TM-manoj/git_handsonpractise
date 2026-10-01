@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Building application"'
-                sh 'ls -la'
+                sh 'cat index.html'
             }
         }
 
