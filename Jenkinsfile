@@ -19,7 +19,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                sh 'echo "Testing application webhook-test"'
+                sh 'echo "Testing application webhook-testing done"'
             }
         }
     }
